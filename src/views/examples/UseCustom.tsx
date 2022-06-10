@@ -4,7 +4,7 @@ import SectionTitle from '../../components/layout/SectionTitle';
 import { useCounter } from '../../hooks/useCounter';
 
 const UseCustom = () => {
-  const [count, inc, dec] = useCounter();
+  const { count, inc, dec } = useCounter();
 
   return (
     <div className="UseCustom">
